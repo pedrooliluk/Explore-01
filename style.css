@@ -1,0 +1,81 @@
+body {
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#hero {
+    width: 592px;
+    margin: 0 auto 72px;
+
+}
+
+#hero img{
+    margin-bottom: 72px;
+}
+
+h1 {
+    font-family: 'inter',sans-serif;
+    color: #000;
+    text-align: center;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 114.286% */
+
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+
+span , a {
+    color: #F90;   
+}
+
+p{
+    color: #7D7987;
+    line-height: 28px;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 28px;    
+}
+
+#line{
+    background: #ECEFF2;
+    margin: 0 auto 8px;
+    /*0 auto 36px;*/
+    width: 568;
+    border: 1px solid #ECEFF2;
+    height: 1px;
+
+}
+
+#footer {
+    color: #F90;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 200% */
+    text-decoration-line: underline;    
+    margin-bottom: 32px;
+    /*
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 12px;
+    text-decoration-line: underline;
+    */
+}
+
+#footer a + a{
+    margin-left: 28px;    
+}
+
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
